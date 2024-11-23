@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/custom_gradient_bg.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#0C123A"
+                android:endColor="@color/card_color"
+                android:angle="45"
+            android:type="linear"
+            />
+            <corners android:radius="0dp"/> <!-- Rounded corners -->
+        </shape>
+    </item>
+</layer-list>

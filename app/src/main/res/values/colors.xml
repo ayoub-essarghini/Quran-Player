@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+<!--  Custom  Colors -->
+    <color name="card_color">#3949AB</color>
+    <color name="icon_color">#39AB7A</color>
+    <color name="seekBarThumbColor">#FDD835</color>
+    <color name="seekBarProgressColor">#FDD835</color>
+    <color name="item_color_bg">#00131c</color>
+    <color name="item_color_default">#83184357</color>
+    <color name="heart">#B37120</color>
+    <color name="main_color">#03AA77</color>
+    <color name="item_color_selected">#00A2EF</color>
+
+
+
+
+</resources>

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Al-Fatiha",
+    "number_of_surah": 1,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/001.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "Al-Baqara",
+    "number_of_surah": 2,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/002.mp3",
+    "type": "Madaniyah"
+  },
+  {
+    "name": "Aal-Imran",
+    "number_of_surah": 3,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/003.mp3",
+    "type": "Madaniyah"
+  },
+  {
+    "name": "An-Nisaa'",
+    "number_of_surah": 4,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/004.mp3",
+    "type": "Madaniyah"
+  },
+  {
+    "name": "Al-Ma'ida",
+    "number_of_surah": 5,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/005.mp3",
+    "type": "Madaniyah"
+  },
+  {
+    "name": "Al-An'am",
+    "number_of_surah": 6,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/006.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "Al-A'raf",
+    "number_of_surah": 7,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/007.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "Al-Anfal",
+    "number_of_surah": 8,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/008.mp3",
+    "type": "Madaniyah"
+  },
+  {
+    "name": "Al-Tawba",
+    "number_of_surah": 9,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/009.mp3",
+    "type": "Madaniyah"
+  },
+  {
+    "name": "Yunus",
+    "number_of_surah": 10,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/010.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "Hud",
+    "number_of_surah": 11,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/011.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "Yusuf",
+    "number_of_surah": 12,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/012.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "Ar-Ra'd",
+    "number_of_surah": 13,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/013.mp3",
+    "type": "Madaniyah"
+  },
+  {
+    "name": "Ibrahim",
+    "number_of_surah": 14,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/014.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "Al-Hijr",
+    "number_of_surah": 15,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/015.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "An-Nahl",
+    "number_of_surah": 16,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/016.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "Al-Israa",
+    "number_of_surah": 17,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/017.mp3",
+    "type": "Makkiyah"
+  },
+  {
+    "name": "Al-Kahf",
+    "number_of_surah": 18,
+    "reciter": "Nacer Qutami",
+    "recitation": "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/018.mp3",
+    "type": "Makkiyah"
+  }
+]

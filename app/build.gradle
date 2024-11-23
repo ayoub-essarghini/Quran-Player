@@ -1,0 +1,56 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.items.mp3player'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.items.mp3player"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled true  // Enables code shrinking
+            shrinkResources true  // Removes unused resources
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    testImplementation libs.junit
+    implementation libs.media
+    implementation libs.sqlite
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+ //Applovin
+    implementation 'com.applovin:applovin-sdk:+'
+
+    // BACKGROUND NATIVE
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.facebook.android:audience-network-sdk:6.+'
+
+    // ADMOB
+    implementation 'com.google.android.gms:play-services-ads:23.4.0'
+    implementation project(':nativetemplates')
+    implementation libs.volley
+}

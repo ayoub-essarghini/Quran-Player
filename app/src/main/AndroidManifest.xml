@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mp3Player"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.About"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.PlayListOnline"
+            android:exported="false" />
+
+        <service
+            android:name=".services.MyMediaPlayer"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.OnlinePlayer"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MusicPlayer"
+            android:exported="false" />
+        <activity
+            android:name=".ui.PlayList"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" /> <!-- todo: change app_id admob -->
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="KT7LLyHun2SNtU5-L4reO6p50EzhlTl1nN1b6oK3IonziTJmuxk7Iax_f6RXHzyTZ3HAECrn0OZ93K2G531x2D" />
+    </application>
+
+</manifest>

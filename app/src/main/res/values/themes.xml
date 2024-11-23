@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mp3Player" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#333</item>
+         <item name="colorSecondary">#33c3</item>
+    </style>
+
+    <style name="Theme.Mp3Player" parent="Base.Theme.Mp3Player" >
+        <item name="colorPrimary">#333</item>
+        <item name="colorSecondary">#33c3</item>
+    </style>
+
+    <style name="AppToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="android:windowIsFloating">false</item>
+        <item name = "android:windowBackground" >@android:color/white</item >
+    </style>
+</resources>

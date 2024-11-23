@@ -1,0 +1,36 @@
+[versions]
+agp = "8.5.2"
+applovinSdk = "13.0.0"
+audienceNetworkSdk = "6.11.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+media = "1.7.0"
+playServicesAds = "23.4.0"
+shimmer = "0.5.0"
+sqlite = "2.4.0"
+volley = "1.2.1"
+
+[libraries]
+applovin-sdk = { module = "com.applovin:applovin-sdk", version.ref = "applovinSdk" }
+audience-network-sdk = { module = "com.facebook.android:audience-network-sdk", version.ref = "audienceNetworkSdk" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+media = { module = "androidx.media:media", version.ref = "media" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+sqlite = { module = "androidx.sqlite:sqlite", version.ref = "sqlite" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

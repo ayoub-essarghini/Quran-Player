@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "fileName": "alfatiha.mp3",
+    "artist": "Nacer Qutami",
+    "title": "AL-FATIHA سورة الفاتحة"
+  },
+  {
+    "id": 2,
+    "fileName": "aalimran.mp3",
+    "artist": "Nacer Qutami",
+    "title": "آل عمران Aal-Imran"
+  },
+  {
+    "id": 3,
+    "fileName": "anisaa.mp3",
+    "artist": "Nacer Qutami",
+    "title":"Annisaa النساء"
+  }
+
+]
